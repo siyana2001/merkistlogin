@@ -1,0 +1,85 @@
+.home_page{
+    height: 100vh;
+
+}
+body{
+    overflow-y: hidden;
+}
+.padding_sec{
+    padding: 50px;
+    margin-left: -60px;
+}
+
+.nav_sec{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 260px;
+}
+.fw-100{
+color: lightgray;
+font-size: 110px;
+text-align: left;
+font-weight: 700;
+margin-left: -10px;
+}
+.main_home{
+    margin-left: 200px;
+    margin-top: 70px;
+    margin: 20px ;
+}
+.txt{
+   margin-left: -30px;
+    margin-top: 80px;
+    color: rgb(33, 101, 33);
+    
+}
+.greencolor{
+    color: rgb(33, 101, 33);
+    margin-top: 30px;
+
+}
+.btns_home{
+
+    display: flex;
+    
+    gap: 10px;
+    flex-direction: column;
+    height: 20vh;
+    width: 400px;
+}
+.left{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.left1{
+    margin-left: -100px;
+}
+.right{
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.greenborder{
+    border: solid green 2px;
+    min-width: 300px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: rgb(33, 101, 33);
+    border-radius: 10px;
+    background-color: transparent;
+    cursor: pointer;
+    margin-top: 20px;
+  
+}
+.hide{
+    background: transparent;
+    border: 0;
+    color: rgb(33, 101, 33);
+    
+}
